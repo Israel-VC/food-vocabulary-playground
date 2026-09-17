@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173c34">
+  <meta name="description" content="Visual food vocabulary and interactive activities for Countable & Non-Countable Nouns and Quantifiers.">
+  <title>Food Lab · Vocabulary Playground</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reference-style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Food Lab, back to top"><span class="brand-mark">✳</span> FOOD LAB <span class="brand-small">/ VOCABULARY PLAYGROUND</span></a>
+    <nav aria-label="Main navigation"><a href="#explora">Explore</a><a href="#juegos">Activities</a><a href="#reto">Your turn</a></nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> ENGLISH VOCABULARY · FOOD EDITION</div>
+        <h1>Look.<br><em>Play.</em><br>Remember.</h1>
+        <p>Discover words for food and quantities. Look at the pictures, listen to the words, and learn through play.</p>
+        <a class="button button-primary" href="#explora">Start exploring <span aria-hidden="true">↗</span></a>
+        <div class="hero-note">24 words · 4 activities · all visual</div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Colorful food illustration: apple, milk, bread, banana, cheese, and water">
+        <div class="art-label top">FRESH WORDS <span>✷</span></div>
+        <div class="art-plate"><span class="art-food apple">🍎</span><span class="art-food milk">🥛</span><span class="art-food bread">🍞</span><span class="art-food banana">🍌</span><span class="art-food cheese">🧀</span><span class="art-food water">💧</span></div>
+        <div class="art-label bottom">A LITTLE LEARNING, A LOT OF FUN.</div>
+        <div class="art-star star-one">✳</div><div class="art-star star-two">✦</div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div>APPLES ✳ MILK ✳ RICE ✳ BREAD ✳ EGGS ✳ WATER ✳ BANANAS ✳ CHEESE ✳ APPLES ✳ MILK ✳ RICE ✳ BREAD ✳</div></div>
+
+    <section id="explora" class="section-wrap explore">
+      <div class="section-heading"><div><span class="kicker">01 / EXPLORE</span><h2>Picture dictionary<span class="accent-dot">.</span></h2><p>Choose a collection. Tap any card to hear the English word.</p></div><div class="heading-doodle" aria-hidden="true">↘</div></div>
+      <div class="filters" role="group" aria-label="Filter vocabulary"><button class="filter active" data-filter="all" aria-pressed="true">All <span>24</span></button><button class="filter" data-filter="countable" aria-pressed="false">🔵 Countable <span>12</span></button><button class="filter" data-filter="uncountable" aria-pressed="false">🟠 Non-countable <span>12</span></button></div>
+      <div id="vocab-grid" class="vocab-grid"></div>
+      <div class="speech-note">🔊 Tip: tap a picture to hear the word.</div>
+    </section>
+
+    <section class="quantity-section">
+      <div class="section-wrap">
+        <div class="section-heading quantity-heading"><div><span class="kicker">02 / QUANTITY WORDS</span><h2>Little words.<br><em>Big meaning.</em></h2><p>Look at each picture and say the short phrase aloud.</p></div></div>
+        <div class="quantity-grid">
+          <article class="quantity-card"><div class="quantity-picture">🍎 🍎 🍎</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>many apples</h3><p>Say it aloud 🔊</p></div></article>
+          <article class="quantity-card"><div class="quantity-picture">🥛🥛🥛</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>much milk</h3><p>Say it aloud 🔊</p></div></article>
+          <article class="quantity-card"><div class="quantity-picture">🍌 🍌</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>a few bananas</h3><p>Say it aloud 🔊</p></div></article>
+          <article class="quantity-card"><div class="quantity-picture">💧</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>a little water</h3><p>Say it aloud 🔊</p></div></article>
+          <article class="quantity-card"><div class="quantity-picture">🍪 🍪 🍪</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>some cookies</h3><p>Say it aloud 🔊</p></div></article>
+          <article class="quantity-card"><div class="quantity-picture">🧀 ❓</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>any cheese?</h3><p>Say it aloud 🔊</p></div></article>
+          <article class="quantity-card"><div class="quantity-picture">🥚 🥚 🥚 🥚</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>a lot of eggs</h3><p>Say it aloud 🔊</p></div></article>
+          <article class="quantity-card"><div class="quantity-picture">🍞 1</div><div><span class="quantity-tag">PICTURE PHRASE</span><h3>a slice of bread</h3><p>Say it aloud 🔊</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="juegos" class="section-wrap games-section">
+      <div class="section-heading"><div><span class="kicker">03 / ACTIVITIES</span><h2>Learn by playing<span class="accent-dot">.</span></h2><p>Start with the flashcards. Then try the picture and word games.</p></div><div class="heading-doodle" aria-hidden="true">✳</div></div>
+      <div class="game-tabs" role="tablist" aria-label="Choose an activity"><button class="game-tab active" role="tab" aria-selected="true" data-game="cards">01 · Flashcard deck</button><button class="game-tab" role="tab" aria-selected="false" data-game="memory">02 · Memory match</button><button class="game-tab" role="tab" aria-selected="false" data-game="sort">03 · Food sort</button><button class="game-tab" role="tab" aria-selected="false" data-game="choose">04 · Picture challenge</button></div>
+      <div class="game-shell"><div id="game-content"></div></div>
+    </section>
+
+    <section id="reto" class="final-section"><div class="section-wrap final-inner"><div><span class="kicker">04 / YOUR TURN</span><h2>Make your<br><em>own menu!</em></h2><p>Pair activity: choose three foods from this page. Draw your menu and present it using words such as <strong>some</strong>, <strong>a few</strong>, and <strong>a little</strong>.</p><div class="prompt-card">“I have <strong>some rice</strong>, <strong>a few apples</strong>, and <strong>a little water</strong>.”</div><button class="button button-light" id="new-prompt">Give me a combination ↻</button><div id="challenge-prompt" class="challenge-prompt" aria-live="polite"></div></div><div class="menu-visual" aria-hidden="true"><div class="menu-title">TODAY'S MENU <span>✳</span></div><div class="menu-items"><span>🍎</span><span>🥛</span><span>🍞</span></div><div class="menu-line"></div><div class="menu-foot">DRAW • SAY • SHARE</div></div></div></section>
+  </main>
+  <footer><div class="section-wrap footer-inner"><span>FOOD LAB ✳</span><span>Look. Play. Remember.</span><a href="#inicio">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
